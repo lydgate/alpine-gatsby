@@ -9,6 +9,7 @@ Or you can run `docker build -t $USER/gatsby-node .` to name it after yourself.
 
 If you want surge.sh, you can uncomment that line first.
 It's a pretty crazy shell script that just blats your directory onto the internet.
+For example you could run it from your Gatsby "public" directory to serve your site.
 
 # Example run
 
