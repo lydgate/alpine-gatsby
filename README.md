@@ -1,10 +1,15 @@
 # What is this?
 
 It's just a Dockerfile that uses another Docker image of Alpine Linux with Node to install GatsbyJS.
+It uses [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/).
+
+# How to pull
+
+Just use `docker pull lydgate/alpine-gatsby`.
 
 # How to build
 
-Run `docker build .` in the directory :)
+Run `docker build .` in the directory.
 Or you can run `docker build -t $USER/alpine-gatsby .` to name it after yourself.
 
 If you want surge.sh, you can uncomment that line first.
